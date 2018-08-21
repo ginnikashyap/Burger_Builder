@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Auxl';
+import Aux from '../../hoc/Auxl/Auxl';
 import Burger from '../../component/Burger/Burger';
 import BuildControls from '../../component/Burger/BuildControls/BuildControls';
 import Modal from '../../component/UI/Modal/Modal';
