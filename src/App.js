@@ -4,13 +4,22 @@ import BurgerBuilder from './container/BurgerBuilder/BurgerBuilder';
 
 
 class App extends Component {
+  // state={
+  //   show:true
+  // }
+  
+  // componentDidMount()
+  // {
+  //   setTimeout(()=>{
+  //   this.setState({show:false});
+  //         },5000);
+  // }
   render() {
     return (
       <div>
        <Layout>
           <p>Test</p>
-          <BurgerBuilder>
-          </BurgerBuilder>
+          <BurgerBuilder/>
         </Layout>
       </div>
     );
